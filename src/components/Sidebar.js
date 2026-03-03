@@ -6,7 +6,7 @@ export default function SidebarComponent({ isOpen }) {
       className={`fixed top-0 left-0 z-40 w-64 h-full transition-transform ${
         isOpen ? "translate-x-0" : "-translate-x-full"
       } sm:translate-x-0`}>
-      <div className="h-full px-3 py-4 overflow-y-auto bg-white border-r border-gray-200 dark:bg-gray-800">
+      <div className="h-full px-3 py-4 overflow-y-auto bg-white border-gray-200 dark:bg-gray-800">
         <a href="/" className="flex items-center ps-2.5 mb-5">
           <img
             src="https://flowbite.com/docs/images/logo.svg"
